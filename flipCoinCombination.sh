@@ -4,6 +4,7 @@
 #Number of Coins Flipping Simultaneously
 ONE=1
 TWO=2
+THREE=3
 
 isHeads=1
 
@@ -40,3 +41,4 @@ read -p "Enter Number Of Flips : " flips
 
 echo singlet=$( coinFlip $flips $ONE )
 echo doublet=$( coinFlip $flips $TWO )
+echo triplet=$( coinFlip $flips $THREE )

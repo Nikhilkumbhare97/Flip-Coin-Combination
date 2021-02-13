@@ -3,6 +3,7 @@
 #Constants
 #Number of Coins Flipping Simultaneously
 ONE=1
+TWO=2
 
 isHeads=1
 
@@ -38,5 +39,4 @@ function percentage(){
 read -p "Enter Number Of Flips : " flips
 
 echo singlet=$( coinFlip $flips $ONE )
-
-
+echo doublet=$( coinFlip $flips $TWO )
